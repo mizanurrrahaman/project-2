@@ -10,116 +10,118 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body> 
     <!--=======navbar start here======-->
     <nav class="bg-primary py-3">
-        <div class="max-w-container mx-auto">
-            <div class="flex items-center ">
-                <div class="w-[200px] relative after:absolute after:content-[''] after:w-[2px] after:h-[80px] after:bg-[#FFF] after:top-[-24px] after:right-0 after:opacity-25">
-                    <img src="./images/Vector (10).png">
+        <div class="w-full 2xl:max-w-container px-2 sm:px-4 lg:px-8 mx-auto">
+            <div class="flex items-center justify-between ">
+                <div class="w-[auto] sm:w-[200px] relative after:absolute after:content-[''] after:w-[2px] after:h-[80px] 2xl:after:h-[87px] after:bg-transparent xl:after:bg-white after:top-[-24px] after:right-0 xl:after:right-[-30px] after:opacity-25">
+                    <img class="w-[70%] md:w-full" src="./images/Vector (10).png">
                 </div>
-                <div class="w-[1080px] flex items-center justify-between">
-                    <ul class="flex gap-x-12 items-center ml-16">
-                        <li>
-                            <a class="text-base	font-normal text-white capitalize font-robotocondenced leading-7" href="#"> Home</a>
-                        </li>
-                        <li>
-                            <a class="text-base	font-normal text-white capitalize font-robotocondenced leading-7" href="#">About us</a>
-                        </li>
-                        <li>
-                            <a class="text-base	font-normal text-white capitalize font-robotocondenced leading-7" href="#">Sermon</a>
-                        </li>
-                        <li>
-                            <a class="text-base	font-normal text-white capitalize font-robotocondenced leading-7" href="#">Blog</a>
-                        </li>
-                    </ul>
-                    <a class="inline-block bg-[#FFD2A4] py-5 px-12 rounded-xl text-[16px] font-normal text-center leading-none	font-robotocondenced " href="#">Contact us </a>
+                <div class="hidden lg:block">
+                    <div class=" lg:w-[auto] xl:w-[1080px] flex items-center justify-between">
+                        <ul class="flex gap-x-12 items-center ml-16">
+                            <li>
+                                <a class="text-base	font-normal text-white capitalize font-robotocondenced leading-7" href="#"> Home</a>
+                            </li>
+                            <li>
+                                <a class="text-base	font-normal text-white capitalize font-robotocondenced leading-7" href="#">About us</a>
+                            </li>
+                            <li>
+                                <a class="text-base	font-normal text-white capitalize font-robotocondenced leading-7" href="#">Sermon</a>
+                            </li>
+                            <li>
+                                <a class="text-base	font-normal text-white capitalize font-robotocondenced leading-7" href="#">Blog</a>
+                            </li>
+                        </ul>
+                        <a class="inline-block bg-[#FFD2A4] py-4 px-6 xl:py-5 xl:px-12 rounded-xl text-[16px] font-normal text-center leading-none	font-robotocondenced ml-8 " href="#">Contact us </a>
+                    </div> 
+                </div>
+                <div class="block lg:hidden cursor-pointer">
+                    <i class="fa-solid fa-bars text-white sm:text-2xl"></i>
                 </div>
             </div>
         </div>
     </nav>
     <!--=======navbar end here======-->
 
-  <!--=======banner start here======-->
-    <section class="bg-banner py-32	bg-center bg-no-repeat bg-cover	">
-       <div class="max-w-container mx-auto">
-           <div>
+  <!--=======banner start here======-->          
+    <section class="bg-black sm:bg-banner py-24 sm:py-32 bg-center bg-no-repeat bg-cover">
+       <div class="w-full 2xl:max-w-container px-2 sm:px-4 lg:px-8 mx-auto">
+           <div class="w-full md:w-[540px] lg:w-[592px]">
              <h5 class="text-base font-bold font-robotocondenced text-white pb-4 uppercase "> Welcome to our CHURCH</h5>
-             <h1 class="font-bold font-robotocondenced text-white text-size leading-[82px] pb-8 w-[592px] uppercase"> Become a part of our community </h1>
+             <h1 class="font-bold font-robotocondenced text-white text-4xl sm:text-5xl lg:text-size leading-full md:leading-[70px] sm:leading-[70px] pb-8 w-full  sm:w-[592px] uppercase"> Become a part of our community </h1>
              <a class="inline-block bg-[#FFD2A4] py-6 px-16 rounded-xl text-[16px] font-normal text-center leading-none	font-robotocondenced uppercase" href="#">Learn more </a>
            </div>
-           <p class="text-base font-normal font-robotocondenced text-white leading-normal pt-16 capitalize w-[308px] pl-[30px] relative  after:absolute after:content-[''] after:w-[18px] after:h-[2px] after:top-[78px] after:left-0 after:bg-[#FFD2A4] "> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</p>
+           <p class="text-base font-normal font-robotocondenced text-white leading-normal pt-16 capitalize w-full sm:w-[338px] pl-0 sm:pl-[30px] relative  after:absolute after:content-[''] after:w-[18px] after:h-[2px] after:top-[78px] after:left-0 after:bg-transparent sm:after:bg-[#FFD2A4] "> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</p>
        </div>
     </section>
-  <!--=======banner end here======-->
+    <!--=======banner end here======-->
 
   <!--=======service start here======-->
-  <section class="py-32 bg-[white]">
-       <div class="max-w-container mx-auto">
+  <section class="py-9 md:py-32 bg-[white]">
+       <div class="w-full 2xl:max-w-container px-2 sm:px-4 lg:px-8 mx-auto">
           <div>
                 <h5 class="text-base font-normal font-robotocondenced text-[#161722] text-center uppercase leading-5 "> sub-headline</h5>
-                <h1 class="text-5xl font-bold	font-robotocondenced text-[#161722
-                ] leading-[64px] text-center uppercase pt-4 pb-16	"> a church that's relevant</h1>
+                <h1 class="text-3xl md:text-5xl font-bold	font-robotocondenced text-[#161722
+                ] leading-[44px] md:leading-[64px] text-center uppercase md:pt-4 pb-16"> a church that's relevant</h1>
           </div>
-           <div class="flex gap-6 items-center flex-wrap">
-
-                   <div class="bg-[#FFF5EB] w-[410px] p-20 relative after:absolute after:content-[''] after:left-0 after:bottom-0 after:bg-[#FFD2A4] after:w-[410px] after:h-4">
-                    <div class="w-12 bg-[#FFD2A4] h-12 rounded-[50%] flex justify-center items-center">
-                        <i class="fa-solid fa-cross text-2xl"></i>
-                    </div>
-                      <h3 class="text-[#161722] font-bold text-[32px] font-robotocondenced uppercase mt-6 mb-2 leading-[44px]"> About us</h3>
-                      <p class="text-#161722 font-normal text-base font-robotocondenced leading-[24px] "> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                   </div>
-
-                   <div class="bg-[#FFF5EB] w-[410px] p-20 relative after:absolute after:content-[''] after:left-0 after:bottom-0 after:bg-[#FFD2A4] after:w-[410px] after:h-4">
-                    <div class="w-12 bg-[#FFD2A4] h-12 rounded-[50%] flex justify-center items-center">
-                        <i class="fa-solid fa-cross text-2xl"></i>
-                    </div>
-                      <h3 class="text-[#161722] font-bold text-[32px] font-robotocondenced uppercase mt-6 mb-2 leading-[44px]"> About us</h3>
-                      <p class="text-#161722 font-normal text-base font-robotocondenced leading-[24px] "> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                   </div>
-
-                   <div class="bg-[#FFF5EB] w-[410px] p-20 relative after:absolute after:content-[''] after:left-0 after:bottom-0 after:bg-[#FFD2A4] after:w-[410px] after:h-4">
-                    <div class="w-12 bg-[#FFD2A4] h-12 rounded-[50%] flex justify-center items-center">
-                        <i class="fa-solid fa-cross text-2xl"></i>
-                    </div>
-                      <h3 class="text-[#161722] font-bold text-[32px] font-robotocondenced uppercase mt-6 mb-2 leading-[44px]"> About us</h3>
-                      <p class="text-#161722 font-normal text-base font-robotocondenced leading-[24px] "> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                   </div>
+           <div class="flex pt-4 md:pt-16 gap-[15px] md:gap-[25px] items-center justify-center flex-wrap">
+                <div class="bg-[#FFF5EB] w-full sm:w-[46%] md:w-[220px] lg:w-[410px] p-5 lg:p-20 relative after:absolute after:content-[''] after:left-0 after:bottom-0 after:bg-[#FFD2A4] after:w-full after:h-4">
+                <div class="w-12 bg-[#FFD2A4] h-12 rounded-[50%] flex justify-center items-center">
+                <i class="fa-solid fa-cross text-2xl"></i>
+                </div>
+                  <h3 class="text-[#161722] font-bold text-[32px] font-robotocondenced uppercase mt-6 mb-2 leading-[44px]"> About us</h3>
+                  <p class="text-#161722 font-normal text-base font-robotocondenced leading-[24px] "> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+               </div>
+               <div class="bg-[#FFF5EB] w-full sm:w-[46%] md:w-[220px] lg:w-[410px] p-5 lg:p-20 relative after:absolute after:content-[''] after:left-0 after:bottom-0 after:bg-[#FFD2A4] after:w-full after:h-4">
+                <div class="w-12 bg-[#FFD2A4] h-12 rounded-[50%] flex justify-center items-center">
+                    <i class="fa-solid fa-cross text-2xl"></i>
+                </div>
+                  <h3 class="text-[#161722] font-bold text-[32px] font-robotocondenced uppercase mt-6 mb-2 leading-[44px]"> About us</h3>
+                  <p class="text-#161722 font-normal text-base font-robotocondenced leading-[24px] "> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+               </div>
+               <div class="bg-[#FFF5EB] w-full sm:w-[46%] md:w-[220px] lg:w-[410px] p-5 lg:p-20 relative after:absolute after:content-[''] after:left-0 after:bottom-0 after:bg-[#FFD2A4] after:w-full after:h-4">
+                <div class="w-12 bg-[#FFD2A4] h-12 rounded-[50%] flex justify-center items-center">
+                    <i class="fa-solid fa-cross text-2xl"></i>
+                </div>
+                  <h3 class="text-[#161722] font-bold text-[32px] font-robotocondenced uppercase mt-6 mb-2 leading-[44px]"> About us</h3>
+                  <p class="text-#161722 font-normal text-base font-robotocondenced leading-[24px] "> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+               </div>
            </div>
 
        </div>
   </section>
-  <!--=======service end here======-->
+   <!--=======service end here======-->
 
    <!--=======Love start here======-->
-   <section class="py-32 bg-[white]">
-      <div class="max-w-container mx-auto">
+   <section class="py-2 md:py-8 lg:py-32 bg-[white]">
+      <div class="w-full 2xl:max-w-container px-2 sm:px-4 lg:px-8 mx-auto">
           <div class="text-center">
               <h5 class="text-base font-normal font-robotocondenced text-[#161722] text-center uppercase leading-5 "> SUB-HEADLINE</h5>
-              <h1 class="text-5xl font-bold	font-robotocondenced text-[#161722
-              ] leading-[64px] text-center uppercase pt-4 pb-8 "> love and compassion</h1>
-            <p class="text-#161722 font-normal text-base font-robotocondenced leading-[24px] w-[846px] mx-auto"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-            <a class="inline-block bg-[#FFD2A4] mt-[56px] py-[24px] px-[64px] text-[16px] font-normal text-center leading-none	font-robotocondenced uppercase " href="#">Read more </a>
+              <h1 class="text-4xl md:text-5xl font-bold	font-robotocondenced text-[#161722]
+              leading-[35px]  md:leading-[64px] text-center uppercase pt-4 pb-8 "> love and compassion</h1>
+            <p class="text-#161722 font-normal text-base font-robotocondenced leading-[24px] w-full lg:w-[846px] mx-auto"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <a class="inline-block bg-[#FFD2A4] mt-[26px] md:mt-[56px] py-[16px] px-[48px] md:py-[24px] md:px-[64px] text-[16px] font-normal text-center leading-none	font-robotocondenced uppercase " href="#">Read more </a>
           </div>
 
           <div class="flex mx-auto justify-center gap-x-[24px] ">
-               <div class=" w-[293px] h-[384px] truncate rounded-[30px] ">
+               <div class="w-full md:w-[293px] h-full md:h-[384px] truncate rounded-[30px] ">
                      <img class="w-[100%] h-[100%] object-cover" src="./images/love1.png">
                 </div>
-               <div class=" w-[390px] h-[512px] truncate rounded-[30px] mt-[48px]">
+               <div class="w-full md:w-[390px] h-full md:h-[512px] truncate rounded-[30px] mt-[48px]">
                      <img class="w-[100%] h-[100%] object-cover" src="./images/love2.png">
                 </div>
-                <div class=" w-[293px] h-[384px] truncate rounded-[30px] ">
+                <div class="w-full md:w-[293px] h-full md:h-[384px] truncate rounded-[30px] ">
                     <img class="w-[100%] h-[100%] object-cover" src="./images/love3.png">
                 </div>
           </div>
 
          <div class="text-center">
-            <h5 class="text-base font-normal font-robotocondenced text-[#161722] text-center uppercase leading-5 mt-[64px] mb-4 "> SUB-HEADLINE</h5>
-            <h3 class="text-[32px] font-bold	font-robotocondenced text-[#161722
+            <h5 class="text-base font-normal font-robotocondenced text-[#161722] text-center uppercase leading-5 mt-[44px] md:mt-[64px] mb-4 "> SUB-HEADLINE</h5>
+            <h3 class="text-[26px] md:text-[32px] font-bold	font-robotocondenced text-[#161722
             ] leading-[44px] text-center uppercase pt-4 pb-4 "> celebrate WITH US</h3>
-            <p class="text-base	font-normal text-[#161722] capitalize font-robotocondenced w-[512px] mx-auto pb-4"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p class="text-base	font-normal text-[#161722] capitalize font-robotocondenced w-full md:w-[512px] mx-auto pb-4"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             <a href="#" class="text-[#161722]  font-normal font-robotocondenced text-[16px] leading-4 capitalize "> Read More <i class="fa-solid fa-arrow-right-long ml-[6px]"></i></a>
          </div>
 
@@ -128,81 +130,80 @@
    <!--========Love end here=======-->
    
    <!--========== Watch Start Here=========-->
-   <section class="bg-[#F5F2F0] py-32">
-      <div class="max-w-container mx-auto">
+   <section class="bg-[#F5F2F0] py-8 md:py-32">
+      <div class="w-full 2xl:max-w-container px-2 sm:px-4 lg:px-8 mx-auto">
          <div class="text-center">
-              <h5 class="text-base font-normal font-robotocondenced text-[#161722] text-center uppercase leading-5 mt-[64px] mb-4 "> Watch and listen</h5>
-              <h1 class="text-5xl font-bold  w-[452px] font-robotocondenced text-[#161722
-              ] leading-[64px]  uppercase mx-auto mt-5 mb-16	">THE benefits of joining our church</h1>
+              <h5 class="text-xs lg:text-base font-normal font-robotocondenced text-[#161722] text-center uppercase leading-5 mt-6 lg:mt-16 mb-4 "> Watch and listen</h5>
+              <h1 class="text-3xl md:text-5xl font-bold w-full md:w-[452px] font-robotocondenced text-[#161722
+              ] leading-[45px] md:leading-[64px]  uppercase mx-auto mt-5  mb-10 md:mb-16">THE benefits of joining our church</h1>
         </div>
-              <div class="flex items-center	 gap-x-[24px]">
-              <div class="w-[302px] h-[384px] overflow-hidden relative group">
+         
+          <div class="flex items-center gap-x-[24px]">
+              <div class="w-full lg:w-[302px] h-full lg:h-[384px] overflow-hidden relative group">
                    <picture> 
                        <img class="w-[100%] h-[100%] object-cover" src="./images/religion1.png">
                    </picture>
-                   <div class="absolute left-[0] top-[72%] w-full h-full bg-overlay p-8 transition-all ease-linear	 duration-300 group-hover:top-[45%] ">
-                       <h3 class="text-2xl font-bold font-robotocondenced text-white leading-[28px] uppercase"> WATCH AND LISTEN TO OUR SERMONS</h3>
-                       <p class="text-base font-normal font-robotocondenced text-white leading-[24px] pt-4" > Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
-                   </div>
+                   <div class="absolute left-[0] top-[72%] w-full md:w-full h-full md:h-full bg-overlay p-2 md:p-8 transition-all ease-linear	 duration-300 group-hover:top-[45%] ">
+                    <h3 class="text-[5px] md:text-2xl font-bold font-robotocondenced text-white leading-[12px] md:leading-[28px] uppercase"> WATCH AND LISTEN TO OUR SERMONS</h3>
+                    <p class="text-[4px] md:text-base font-normal font-robotocondenced text-white leading-0 md:leading-[24px] pt-[8px] md:pt-4" > Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
+                    </div>
 
               </div>
-              <div class="w-[302px] h-[384px] overflow-hidden relative group">
+              <div class="w-full lg:w-[302px] h-full lg:h-[384px] overflow-hidden relative group">
                 <picture> 
                     <img class="w-[100%] h-[100%] object-cover" src="./images/religion.png">
                 </picture>
-                <div class="absolute left-[0] top-[72%] w-full h-full bg-overlay p-8 transition-all ease-linear	 duration-300 group-hover:top-[45%] ">
-                    <h3 class="text-2xl font-bold font-robotocondenced text-white leading-[28px] uppercase"> WATCH AND LISTEN TO OUR SERMONS</h3>
-                    <p class="text-base font-normal font-robotocondenced text-white leading-[24px] pt-4" > Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
+                <div class="absolute left-[0] top-[72%] w-full md:w-full h-full md:h-full bg-overlay p-2 md:p-8 transition-all ease-linear	 duration-300 group-hover:top-[45%] ">
+                    <h3 class="text-[3px] md:text-2xl font-bold font-robotocondenced text-white leading-[5px] md:leading-[10px] md:leading-[28px] uppercase"> WATCH AND LISTEN TO OUR SERMONS</h3>
+                    <p class="text-[3px] md:text-base font-normal font-robotocondenced text-white leading-0 md:leading-[24px] pt-[1px] md:pt-4" > Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
                 </div>
               </div>
-              <div class="w-[302px] h-[384px] overflow-hidden relative group">
+              <div class="w-full lg:w-[302px] h-full lg:h-[384px] overflow-hidden relative group">
                 <picture> 
                     <img class="w-[100%] h-[100%] object-cover" src="./images/man.png">
                 </picture>
-                <div class="absolute left-[0] top-[72%] w-full h-full bg-overlay p-8 transition-all ease-linear	 duration-300 group-hover:top-[45%] ">
-                    <h3 class="text-2xl font-bold font-robotocondenced text-white leading-[28px] uppercase"> WATCH AND LISTEN TO OUR SERMONS</h3>
-                    <p class="text-base font-normal font-robotocondenced text-white leading-[24px] pt-4" > Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
+               <div class="absolute left-[0] top-[72%] w-full md:w-full h-full md:h-full bg-overlay p-2 md:p-8 transition-all ease-linear	     duration-300 group-hover:top-[45%] ">
+                <h3 class="text-[3px] md:text-2xl font-bold font-robotocondenced text-white leading-[5px] md:leading-[10px] md:leading-[28px] uppercase"> WATCH AND LISTEN TO OUR SERMONS</h3>
+                <p class="text-[3px] md:text-base font-normal font-robotocondenced text-white leading-0 md:leading-[24px] pt-[1px] md:pt-4" > Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
                 </div>
               </div>
-              <div class="w-[302px] h-[384px] overflow-hidden relative group">
+              <div class="w-full lg:w-[302px] h-full lg:h-[384px] overflow-hidden relative group">
                 <picture> 
                     <img class="w-[100%] h-[100%] object-cover" src="./images/love4.png">
                 </picture>
-                <div class="absolute left-[0] top-[72%] w-full h-full bg-overlay p-8 transition-all ease-linear	 duration-300 group-hover:top-[45%] ">
-                    <h3 class="text-2xl font-bold font-robotocondenced text-white leading-[28px] uppercase"> WATCH AND LISTEN TO OUR SERMONS</h3>
-                    <p class="text-base font-normal font-robotocondenced text-white leading-[24px] pt-4" > Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
+                <div class="absolute left-[0] top-[72%] w-full md:w-full h-full md:h-full bg-overlay p-2 md:p-8 transition-all ease-linear	 duration-300 group-hover:top-[45%] ">
+                    <h3 class="text-[3px] md:text-2xl font-bold font-robotocondenced text-white leading-[5px] md:leading-[10px] md:leading-[28px] uppercase"> WATCH AND LISTEN TO OUR SERMONS</h3>
+                    <p class="text-[3px] md:text-base font-normal font-robotocondenced text-white leading-0 md:leading-[24px] pt-[1px] md:pt-4" > Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.</p>
                 </div>
 
               </div>
-
-
            </div>
+           
       </div>
    </section>
    <!--========== Watch end Here=========-->
 
    <!-- ======== Upcoming start Here ========-->
    <section class="py-32">
-      <div class="max-w-container mx-auto">
+      <div class="w-full 2xl:max-w-container px-2 sm:px-4 lg:px-8 mx-auto">
          <div>
             <h5 class="text-base font-normal font-robotocondenced text-[#161722] text-center uppercase leading-5"> Upcoming SERMONS</h5>
-            <h1 class="text-5xl font-bold font-robotocondenced text-[#161722
-            ] leading-[64px] text-center uppercase mt-4	 mb-16 w-[554px] mx-auto"> join us and become part of something great</h1>
+            <h1 class="text-2xl md:text-5xl font-bold font-robotocondenced text-[#161722] leading-[35px] md:leading-[64px] text-center uppercase mt-4	  mb-[30px] md:mb-16 w-full md:w-[554px] mx-auto"> join us and become part of something great</h1>
          </div>
          <div class="flex">
-              <div class="bg-[#FFF5EB] w-[435px] h-[512px] px-[90px] py-[60px] relative">
+              <div class="bg-[#FFF5EB] w-full sm:w-[435px] h-full sm:h-[512px] px-[45px] md:px-[90px] py-[30px] md:py-[60px] relative">
                    <h6 style="-webkit-background-clip: text;
                    -webkit-text-fill-color: transparen;" class="font-bold font-robotocondenced tracking-[8%] text-xs text-[#DC9853]	 bg-Upcoming uppercase bg-clip-text"> Upcoming Event</h6>
-                   <h3 class=" font-bold font-robotocondenced text-2xl not-italic leading-normal uppercase tracking-[-0.24px] w-[210px] my-4"> WATCH AND LISTEN TO OUR SERMONS</h3>
-                   <p class="font-normal font-robotocondenced text-4 leading-[24px] uppercase text-#161722 not-italic opacity-75 w-[356px] mb-[32px]"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                   <h3 class=" font-bold font-robotocondenced text-base md:text-2xl not-italic leading-normal uppercase tracking-[-0.24px] w-full md:w-[210px] my-4"> WATCH AND LISTEN TO OUR SERMONS</h3>
+                   <p class="font-normal font-robotocondenced text-xs md:text-base	 leading-[15px] :leading-[24px] uppercase text-[#161722] not-italic opacity-75 w-full md:w-[356px] mb-[32px]"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
                    <div class="flex flex-col gap-y-4 mb-8">
                          <div class="flex gap-x-4 items-start">
                            <div>
                             <i class="fa-regular fa-clock text-2xl"></i>
                            </div>
                            <div>
-                           <p class="font-normal text-base leading-normal text-[#161722] font-robotocondenced">Friday 23:39</p>  
-                             <p> IST Saturday 11:20 ISD</p>
+                           <p class="font-normal text-xs md:text-base leading-normal text-[#161722] font-robotocondenced">Friday 23:39</p>  
+                             <p class="font-normal text-xs md:text-base leading-normal text-[#161722] font-robotocondenced"> IST Saturday 11:20 ISD</p>
                             </div>
                            
                          </div>
@@ -211,20 +212,20 @@
                                 <i class="fa-solid fa-magnifying-glass text-2xl"></i>
                             </div>
                             <div>
-                            <p class="font-normal text-base leading-normal text-[#161722] font-robotocondenced">Friday 23:39</p>  
-                              <p> IST Saturday 11:20 ISD</p>
+                            <p class="font-normal text-xs md:text-base leading-normal text-[#161722] font-robotocondenced">Friday 23:39</p>  
+                              <p class="font-normal text-xs md:text-base leading-normal text-[#161722] font-robotocondenced"> IST Saturday 11:20 ISD</p>
                              </div>
                          </div>
 
                       </div>
-                      <a class="inline-block bg-[#161722] text-[#FFF] py-5 px-12 rounded-xl text-[16px] font-normal text-center uppercase leading-none	font-robotocondenced " href="#">Contact us </a>
-                     <div class="w-auto absolute top-8 right-8 text-center">
-                         <h3 class="font-robotocondenced font-bold text-2xl text-[#161722] leading-none">20 </h3>   
-                         <span class="font-robotocondenced font-bold text-base text-[#161722] uppercase leading-none"> JULY</span>
+                      <a class="inline-block bg-[#161722] text-[#FFF] py-2 md:py-5 px-6 md:px-12 rounded-xl text-[16px] font-normal text-center uppercase leading-none	font-robotocondenced " href="#">Contact us </a>
+                     <div class="w-auto absolute top-4 md:top-8 right-4 md:right-8 text-center">
+                         <h3 class="font-robotocondenced font-bold text-xs md:text-2xl text-[#161722] leading-none">20 </h3>   
+                         <span class="font-robotocondenced font-bold text-xs md:text-base text-[#161722] uppercase leading-none"> JULY</span>
                      </div>
                 </div>
                  
-              <div class="w-[845px] h-512px overflow-hidden">
+              <div class="w-full md:w-[845px] w-full md:h-[512px] overflow-hidden">
                   <img class="w-full h-full object-cover leading-none" src="./images/angel.jpg"> 
               </div>
          </div>
@@ -233,33 +234,31 @@
 
       </div>
    </section>
-   <!-- ========Upcomeing end Here========-->
+     <!--========Upcomeing end Here========-->
    <!-- ========== Visit start Here==========-->
    <section class=" bg-visitbg py-32 bg-no-repeat bg-center bg-cover">
-       <div class="max-w-container mx-auto">
-           <div class="w-[768px] h-[480px] bg-white mx-auto relative after:absolute after:w-[768px] after:h-4 after:bg-[#FFD2A4] after:button-0 after:left-0">
+       <div class="w-full 2xl:max-w-container px-2 sm:px-4 lg:px-8 mx-auto">
+           <div class="w-full md:w-[768px] h-full md:h-[480px] bg-white mx-auto relative after:absolute after:w-full md:after:w-[768px] after:h-4 after:bg-[#FFD2A4] after:button-0 after:left-0">
                 <div class="py-[72px] pl-[48px] ">
-                      <h3 class="font-bold font-robotocondenced leading-[64px] text-5xl uppercase tracking-[-0.48px] text-[#161722]	w-[368px]"> We want to serve the world around us</h3>
-                      <p class="font-normal font-robotocondenced text-base text-[#161722] leading-6	opacity-75 py-4 w-[302px]"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</p>
+                      <h3 class="font-bold font-robotocondenced leading-[40px] md:leading-[64px] text-3xl md:text-5xl uppercase tracking-[-0.48px] text-[#161722] w-full md:w-[368px]"> We want to serve the world around us</h3>
+                      <p class="font-normal font-robotocondenced text-base text-[#161722] leading-2 md:leading-6	opacity-75 py-4 w-full md:w-[302px]"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</p>
                       <a class="inline-block bg-[#FFD2A4] py-5 px-12 text-[16px] font-normal text-center leading-none	font-robotocondenced " href="#">Visit </a>
-
                 </div>
            </div>
        </div>
    </section>
-   <!-- ========== Visit end  Here==========-->
+     <!--========== Visit end  Here==========-->
 
    <!--========= blog start here ========-->
-     <section class="py-32">
-         <div class="max-w-container mx-auto">
+     <section class="py-16 md:py-32">
+         <div class="w-full 2xl:max-w-container px-2 sm:px-4 lg:px-8 mx-auto">
             <h5 class="text-base font-normal font-robotocondenced text-[#161722] text-center uppercase leading-5">Read our Blog </h5>
-            <h1 class="text-5xl font-bold font-robotocondenced text-[#161722
-            ] leading-[64px] text-center uppercase mt-4	 mb-16 w-[554px] mx-auto"> SHARE, INSPIRE, INNOVATE</h1>
+            <h1 class="text-3xl md:text-5xl font-bold font-robotocondenced text-[#161722] leading-[44px] md:leading-[64px] text-center uppercase mt-4	 mb-16 w-full md:w-[554px] mx-auto"> SHARE, INSPIRE, INNOVATE</h1>
          </div>
 
          <div class="flex gap-[24px] items-center justify-center flex-wrap">
-              <div class=" bg-[#FFF5EB] w-[302px] h-[367px] ">        
-                   <div class="py-[48px] pl-[32px] relative after:absolute after:w-0 after:button-0 after:left-0 after:content-[''] after:h-4 after:bg-[#FFD0A0] after:transition-all after:duration-700 hover:after:w-full">
+              <div class=" bg-[#FFF5EB] w-full sm:w-[302px] h-full sm:h-[367px] ">        
+                   <div class="py-[48px] pl-[32px] relative after:absolute after:w-0 after:button-0 after:left-0 after:content-[''] after:h-4 after:bg-[#FFD0A0] after:transition-all after:duration-700 hover:after:w-full md:hover:after:w-full">
                     <h5 style="-webkit-background-clip: text;
                     -webkit-text-fill-color: transparen;" class="font-bold font-robotocondenced tracking-[8%] text-xs text-[#DC9853]		 bg-Upcoming uppercase bg-clip-text"> Upcoming Event</h5>
                         <h3 class="font-robotocondenced font-bold w-[218px] text-[#161722] leading-normal text-2xl not-italic	uppercase tracking-[-0.24px]
@@ -271,7 +270,7 @@
                       
                    </div>
               </div>
-              <div class=" bg-[#FFF5EB] w-[302px] h-[367px] ">        
+              <div class=" bg-[#FFF5EB] w-full sm:w-[302px] h-full sm:h-[367px] ">        
                 <div class="py-[48px] pl-[32px] relative after:absolute after:w-0 after:button-0 after:left-0 after:content-[''] after:h-4 after:bg-[#FFD0A0] after:transition-all after:duration-700 hover:after:w-full">
                  <h5 style="-webkit-background-clip: text;
                  -webkit-text-fill-color: transparen;" class="font-bold font-robotocondenced tracking-[8%] text-xs text-[#DC9853]		 bg-Upcoming uppercase bg-clip-text"> Upcoming Event</h5>
@@ -284,7 +283,7 @@
                    
                 </div>
               </div>
-              <div class=" bg-[#FFF5EB] w-[302px] h-[367px] ">        
+              <div class=" bg-[#FFF5EB] w-full sm:w-[302px] h-full sm:h-[367px] ">        
                 <div class="py-[48px] pl-[32px] relative after:absolute after:w-0 after:button-0 after:left-0 after:content-[''] after:h-4 after:bg-[#FFD0A0] after:transition-all after:duration-700 hover:after:w-full">
                  <h5 style="-webkit-background-clip: text;
                  -webkit-text-fill-color: transparen;" class="font-bold font-robotocondenced tracking-[8%] text-xs text-[#DC9853]		 bg-Upcoming uppercase bg-clip-text"> Upcoming Event</h5>
@@ -297,7 +296,7 @@
                    
                 </div>
                </div>
-               <div class=" bg-[#FFF5EB] w-[302px] h-[367px] ">        
+               <div class=" bg-[#FFF5EB] w-full sm:w-[302px] h-full sm:h-[367px] ">        
                 <div class="py-[48px] pl-[32px] relative after:absolute after:w-0 after:button-0 after:left-0 after:content-[''] after:h-4 after:bg-[#FFD0A0] after:transition-all after:duration-700 hover:after:w-full">
                  <h5 style="-webkit-background-clip: text;
                  -webkit-text-fill-color: transparen;" class="font-bold font-robotocondenced tracking-[8%] text-xs text-[#DC9853]		 bg-Upcoming uppercase bg-clip-text"> Upcoming Event</h5>
@@ -311,69 +310,67 @@
                 </div>
               </div>
          </div>
-
-
      </section>
-   <!--========= blog end here ========-->
+      <!--========= blog end here ========-->
 
    <!--==========footer start here==========-->
       <footer class="bg-[#161722] py-16">
-           <div class="max-w-container mx-auto">
+           <div class="w-full 2xl:max-w-container px-2 sm:px-4 lg:px-8 mx-auto">
                <div class="flex">
-                   <div class="flex flex-col gap-y-4">
-                        <div>
+                   <div class="flex flex-col gap-y-[5px] md:gap-y-4">
+                        <div class="w-full md:w-full h-full md:h-full">
                              <img src="./images/footer.png"> 
                         </div>
-                        <span class="font-robotocondenced font-normal text-[#FFF] text-xs leading-[14px] inline-block uppercase pt-4"> © Copyright Finsweet 2022</span>
-                        <span class="font-robotocondenced font-normal text-[#FFF] text-xs leading-[14px] inline-block uppercase pt-8"> (480) 555-0103</span>
-                        <span class="font-robotocondenced font-normal text-[#FFF] text-xs leading-[14px] inline-block uppercase pt-4"> 4517 Washington Ave. </span>
-                        <span class="font-robotocondenced font-normal text-[#FFF] text-xs leading-[14px] inline-block uppercase pt-4"> finsweet@example.com</span>
+                        <span class="font-robotocondenced font-normal text-[#FFF]  text-[10px] md:text-xs leading-[14px] inline-block uppercase pt-4"> © Copyright Finsweet 2022</span>
+                        <span class="font-robotocondenced font-normal text-[#FFF]  text-[7px] md:text-xs leading-[7px] md:leading-[14px]  inline-block uppercase pt-8"> (480) 555-0103</span>
+                        <span class="font-robotocondenced font-normal text-[#FFF]  text-[7px] md:text-xs leading-[7px] md:leading-[14px]  inline-block uppercase pt-4"> 4517 Washington Ave. </span>
+                        <span class="font-robotocondenced font-normal text-[#FFF] text-[7px] md:text-xs leading-[7px] md:leading-[14px] inline-block uppercase pt-4"> finsweet@example.com</span>
                    </div>
-                     <div class="ml-[260px]">
-                       <h5 class="font-robotocondenced font-normal text-base text-[#FFF] capitalize"> Quicklinks</h5>
-                       <ul class="flex gap-6 flex-col mt-5">
+                     <div class="ml-full md:ml-[260px]">
+                       <h5 class="font-robotocondenced font-normal text-xs md:text-base text-[#FFF] capitalize"> Quicklinks</h5>
+                       <ul class="flex gap-3 md:gap-6 flex-col mt-5">
                            <li>
-                               <span class="inline-block  uppercase font-robotocondenced text-[#FFF] opacity-75 text-xs">About us</span> 
+                               <span class="inline-block  uppercase font-robotocondenced text-[#FFF] opacity-75  text-[10px] :text-xs">About us</span> 
                            </li>
                            <li>
-                                <span class="inline-block  uppercase   font-robotocondenced text-[#FFF] opacity-75 text-xs">About us</span> 
+                            <span class="inline-block  uppercase font-robotocondenced text-[#FFF] opacity-75  text-[10px] :text-xs">About us</span>  
                            </li>
                            <li>
-                            <span class="inline-block  uppercase font-robotocondenced text-[#FFF] opacity-75 text-xs">About us</span> 
+                            <span class="inline-block  uppercase font-robotocondenced text-[#FFF] opacity-75 text-[10px] md:text-xs">About us</span> 
                             </li>
                             <li>
-                                <span class="inline-block  uppercase font-robotocondenced text-[#FFF] opacity-75 text-xs">About us</span> 
+                                <span class="inline-block  uppercase font-robotocondenced text-[#FFF] opacity-75 text-[10px] md:text-xs">About us</span> 
                             </li>
 
                        </ul>
                      </div>
-                     <div class="ml-[72px]">
-                        <h5 class="font-robotocondenced font-normal text-base text-[#FFF] capitalize pb-[20px]"> Connect</h5>
-                        <ul class="flex gap-x-[20px] items-center">
+                     <div class="ml-full md:ml-[72px]">
+                        <h5 class="font-robotocondenced font-normal text-xs md:text-base text-[#FFF] capitalize pb-[20px]"> Connect</h5>
+                        <ul class="flex gap-x-[10px] md:gap-x-[20px] items-center">
                             <li>
-                                <a href="#" class="bg-[#FFF] text-center rounded-[50%]  py-[4px] px-[4px] text-2xl"> <i class="fa-brands fa-facebook-f  h-[26px] w-[26px]  "></i></a>
+                                <a href="#" class="bg-[#FFF] text-center rounded-[50%]  py-[4px] px-[4px] text-[6px] md:text-2xl"> <i class="fa-brands fa-facebook-f h-full md:h-[26px] w-full md:w-[26px]  "></i></a>
                             </li>
                             <li>
-                                <a href="#" class="bg-[#FFF] text-center rounded-[50%]  py-[4px] px-[4px] text-2xl"> <i class="fa-brands fa-linkedin h-[26px] w-[26px] "></i></a>
+                                <a href="#" class="bg-[#FFF] text-center rounded-[50%]  py-[4px] px-[4px] text-[6px] md:text-2xl"> <i class="fa-brands fa-linkedin h-full md:h-[26px] w-full md:w-[26px]  "></i></a>
                             </li>
                             <li>
-                                <a href="#" class="bg-[#FFF] text-center rounded-[50%]  py-[4px] px-[4px] text-2xl"> <i class="fa-brands fa-twitter h-[26px] w-[26px]"></i></a>
+                                <a href="#" class="bg-[#FFF] text-center rounded-[50%]  py-[4px] px-[4px] text-[6px] md:text-2xl"> <i class="fa-brands fa-twitter h-full md:h-[26px] w-full md:w-[26px] "></i></a>
                             </li>
                         </ul>
                      </div>
-                     <div class="ml-[150px]">
+                     <div class="xl-full xl:ml-[150px]">
                           
-                         <h3 class="text-[32px] font-bold font-robotocondenced text-[#FFF] leading-[44px] pb-[32px] leading-[144px] uppercase "> Subscribe to get Latest Updates and News</h3>
-                        <form class="w-[512px]  relative border-[1px] rounded-xl">
-                          <input class="p-4 w-full text-[#FFF] font-robotocondenced font-normal text-[16px]  bg-transparent outline-0" type="email" placeholder="Yourmail@gmail.com">
-                          <button class="inline-block bg-[#FFD2A4] py-5 px-12 text-[16px] font-bold text-center leading-none	font-robotocondenced absolute top-0 rounded-xl right-0"  type="submit" > Subscribe</button>
+                         <h3 class="text-[15px] md:text-[32px] font-bold font-robotocondenced text-[#FFF] leading-[22px] md:leading-[44px] pb-[32px]  uppercase "> Subscribe to get Latest Updates and News</h3>
+                        <form class="w-full xl:w-[448px]  relative border-[1px] rounded-xl">
+                          <input class="p-4 w-full xl:w-full text-[#FFF] font-robotocondenced font-normal text-[10px] md:text-base  bg-transparent outline-0" type="email" placeholder="Yourmail@gmail.com">
+                          <button class="inline-block bg-[#FFD2A4] py-3 md:py-5 px-8 md:px-12 text-[8px] md:text-base font-bold text-center leading-none font-robotocondenced absolute top-0 rounded-xl right-0"  type="submit" > Subscribe</button>
 
                         </form>
                      </div>
                </div>
            </div>
       </footer>
-    <!--==========footer start here==========-->
+      <!--==========footer start here==========-->
     
     <script src="tailwind.config.js"></script>
 </body>
